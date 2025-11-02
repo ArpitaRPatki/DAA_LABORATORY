@@ -1,0 +1,58 @@
+OUTPUT: ASSIGNMENT 4 
+
+Enter number of intersections (nodes): 6
+Enter number of roads (edges): 7
+
+Enter road 1 details:
+From node: 0
+To node: 1
+Travel time (mins): 4
+
+Enter road 2 details:
+From node: 0
+To node: 2
+Travel time (mins): 2
+
+Enter road 3 details:
+From node: 1
+To node: 2
+Travel time (mins): 5
+
+Enter road 4 details:
+From node: 1
+To node: 3
+Travel time (mins): 10
+
+Enter road 5 details:
+From node: 2
+To node: 4
+Travel time (mins): 3
+
+Enter road 6 details:
+From node: 3
+To node: 5
+Travel time (mins): 11
+
+Enter road 7 details:
+From node: 4
+To node: 5
+Travel time (mins): 4
+
+Enter ambulance starting node: 0
+Enter number of hospitals: 2
+Enter hospital node numbers:
+3
+5
+
+ Shortest travel time from Ambulance (Node 0):
+Hospital at Node 3 -> 14 minutes
+Hospital at Node 5 -> 9 minutes
+
+? Nearest Hospital: Node 5 (Time: 9 mins)
+
+ Optimal Route:
+0 -> 2 -> 4 -> 5 -> Hospital
+
+Do you want to update traffic (y/n)? n
+PS C:\Users\Arpita> 
+

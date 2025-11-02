@@ -1,0 +1,69 @@
+ Welcome to StreamFlix Movie Recommendation System 
+-------------------------------------------------------
+You can sort movies based on:
+1. IMDb Rating
+2. Release Year
+3. Watch Time Popularity
+
+Enter your choice (1/2/3): 3
+
+Before Sorting:
+
+3 Idiots                       | IMDb: 8.4 | Year: 2009 | WatchTime: 95M
+Dangal                         | IMDb: 8.3 | Year: 2016 | WatchTime: 120M
+Taare Zameen Par               | IMDb: 8.4 | Year: 2007 | WatchTime: 85M
+PK                             | IMDb: 8.1 | Year: 2014 | WatchTime: 110M
+Zindagi Na Milegi Dobara       | IMDb: 8.2 | Year: 2011 | WatchTime: 90M
+Lagaan                         | IMDb: 8.1 | Year: 2001 | WatchTime: 70M
+Swades                         | IMDb: 8.2 | Year: 2004 | WatchTime: 65M
+Gully Boy                      | IMDb: 7.9 | Year: 2019 | WatchTime: 100M
+Queen                          | IMDb: 8.1 | Year: 2013 | WatchTime: 75M
+Barfi!                         | IMDb: 8.1 | Year: 2012 | WatchTime: 80M
+Andhadhun                      | IMDb: 8.2 | Year: 2018 | WatchTime: 88M
+Chhichhore                     | IMDb: 8.2 | Year: 2019 | WatchTime: 95M
+Drishyam                       | IMDb: 8.3 | Year: 2015 | WatchTime: 92M
+Kantara                        | IMDb: 8.3 | Year: 2022 | WatchTime: 130M
+Gangs of Wasseypur             | IMDb: 8.2 | Year: 2012 | WatchTime: 70M
+Article 15                     | IMDb: 8.0 | Year: 2019 | WatchTime: 60M
+Raazi                          | IMDb: 7.8 | Year: 2018 | WatchTime: 72M
+Mimi                           | IMDb: 8.1 | Year: 2021 | WatchTime: 68M
+Pathaan                        | IMDb: 6.8 | Year: 2023 | WatchTime: 140M
+Jawan                          | IMDb: 7.6 | Year: 2023 | WatchTime: 135M
+RRR                            | IMDb: 8.0 | Year: 2022 | WatchTime: 150M
+Brahmastra                     | IMDb: 6.6 | Year: 2022 | WatchTime: 125M
+Stree                          | IMDb: 7.5 | Year: 2018 | WatchTime: 78M
+Bhool Bhulaiyaa 2              | IMDb: 6.7 | Year: 2022 | WatchTime: 85M
+Kabir Singh                    | IMDb: 7.1 | Year: 2019 | WatchTime: 115M
+
+After Sorting by POPULARITY:
+
+RRR                            | IMDb: 8.0 | Year: 2022 | WatchTime: 150M
+Pathaan                        | IMDb: 6.8 | Year: 2023 | WatchTime: 140M
+Jawan                          | IMDb: 7.6 | Year: 2023 | WatchTime: 135M
+Kantara                        | IMDb: 8.3 | Year: 2022 | WatchTime: 130M
+Brahmastra                     | IMDb: 6.6 | Year: 2022 | WatchTime: 125M
+Dangal                         | IMDb: 8.3 | Year: 2016 | WatchTime: 120M
+Kabir Singh                    | IMDb: 7.1 | Year: 2019 | WatchTime: 115M
+PK                             | IMDb: 8.1 | Year: 2014 | WatchTime: 110M
+Gully Boy                      | IMDb: 7.9 | Year: 2019 | WatchTime: 100M
+3 Idiots                       | IMDb: 8.4 | Year: 2009 | WatchTime: 95M
+Chhichhore                     | IMDb: 8.2 | Year: 2019 | WatchTime: 95M
+Drishyam                       | IMDb: 8.3 | Year: 2015 | WatchTime: 92M
+Zindagi Na Milegi Dobara       | IMDb: 8.2 | Year: 2011 | WatchTime: 90M
+Andhadhun                      | IMDb: 8.2 | Year: 2018 | WatchTime: 88M
+Taare Zameen Par               | IMDb: 8.4 | Year: 2007 | WatchTime: 85M
+Bhool Bhulaiyaa 2              | IMDb: 6.7 | Year: 2022 | WatchTime: 85M
+Barfi!                         | IMDb: 8.1 | Year: 2012 | WatchTime: 80M
+Stree                          | IMDb: 7.5 | Year: 2018 | WatchTime: 78M
+Queen                          | IMDb: 8.1 | Year: 2013 | WatchTime: 75M
+Raazi                          | IMDb: 7.8 | Year: 2018 | WatchTime: 72M
+Lagaan                         | IMDb: 8.1 | Year: 2001 | WatchTime: 70M
+Gangs of Wasseypur             | IMDb: 8.2 | Year: 2012 | WatchTime: 70M
+Mimi                           | IMDb: 8.1 | Year: 2021 | WatchTime: 68M
+Swades                         | IMDb: 8.2 | Year: 2004 | WatchTime: 65M
+Article 15                     | IMDb: 8.0 | Year: 2019 | WatchTime: 60M
+
+Sorting Time: 0.3677 ms
+
+ Sorting completed efficiently using QuickSort!
+PS C:\Users\Arpita> 

@@ -1,0 +1,37 @@
+OUTPUT : ASSIGNMENT 3 
+
+Enter number of relief items: 4
+
+Enter details for item 1:
+Item name: FOOD
+Utility value: 60
+Weight (kg): 10
+Is it divisible? (true/false): true
+
+Enter details for item 2:
+Item name: water
+Utility value: 100
+Weight (kg): 20
+Is it divisible? (true/false): true
+
+Enter details for item 3:
+Item name: medicine
+Utility value: 120
+Weight (kg): 30
+Is it divisible? (true/false): false
+
+Enter details for item 4:
+Item name: blankets
+Utility value: 80
+Weight (kg): 40
+Is it divisible? (true/false): false
+
+Enter boat capacity (in kg): 50
+
+Items taken in the boat:
+FOOD -> 100% taken
+water -> 100% taken
+
+Total utility value carried: 160.0
+Total weight used: 30.0 / 50.0 kg
+PS C:\Users\Arpita>

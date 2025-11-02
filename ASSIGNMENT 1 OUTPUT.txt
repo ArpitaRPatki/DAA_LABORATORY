@@ -1,0 +1,27 @@
+Before Sorting:
+OrderID: ORD1, Timestamp: 627
+OrderID: ORD2, Timestamp: 8423
+OrderID: ORD3, Timestamp: 8497
+OrderID: ORD4, Timestamp: 4914
+OrderID: ORD5, Timestamp: 103
+OrderID: ORD6, Timestamp: 6652
+OrderID: ORD7, Timestamp: 1257
+OrderID: ORD8, Timestamp: 2588
+OrderID: ORD9, Timestamp: 8215
+OrderID: ORD10, Timestamp: 9535
+
+After Sorting:
+OrderID: ORD5, Timestamp: 103
+OrderID: ORD1, Timestamp: 627
+OrderID: ORD7, Timestamp: 1257
+OrderID: ORD8, Timestamp: 2588
+OrderID: ORD4, Timestamp: 4914
+OrderID: ORD6, Timestamp: 6652
+OrderID: ORD9, Timestamp: 8215
+OrderID: ORD2, Timestamp: 8423
+OrderID: ORD3, Timestamp: 8497
+OrderID: ORD10, Timestamp: 9535
+
+Time taken: 0.0389 ms
+
+PS C:\Users\Arpita> 
