@@ -1,3 +1,6 @@
+//Arpita Patki 123B1F001
+// Assignment 3 Implement the Fractional Knapsack algorithm to maximize the total utility value of the supplies transported.
+
 import java.util.*;
 
 class Item {
@@ -70,3 +73,4 @@ public class DAA_ASSGN_3 {
         sc.close();
     }
 }
+
