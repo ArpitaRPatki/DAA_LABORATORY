@@ -1,0 +1,74 @@
+import java.util.*;
+
+class Item {
+    int weight;
+    int utility;
+
+    Item(int weight, int utility) {
+        this.weight = weight;
+        this.utility = utility;
+    }
+}
+
+public class DAA_ASSGN_6 {
+
+    public static int knapsack(List<Item> items, int W, List<Integer> selectedItems) {
+        int N = items.size();
+        int[][] dp = new int[N + 1][W + 1];
+
+        // Build DP table
+        for (int i = 1; i <= N; i++) {
+            for (int w = 0; w <= W; w++) {
+                if (items.get(i - 1).weight <= w) {
+                    int includeItem = dp[i - 1][w - items.get(i - 1).weight] + items.get(i - 1).utility;
+                    dp[i][w] = Math.max(includeItem, dp[i - 1][w]);
+                } else {
+                    dp[i][w] = dp[i - 1][w];
+                }
+            }
+        }
+
+        // Traceback to find selected items
+        int remainingWeight = W;
+        for (int i = N; i > 0; i--) {
+            if (dp[i][remainingWeight] != dp[i - 1][remainingWeight]) {
+                selectedItems.add(i - 1);
+                remainingWeight -= items.get(i - 1).weight;
+            }
+        }
+
+        return dp[N][W];
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the number of items: ");
+        int N = sc.nextInt();
+        System.out.print("Enter the truck capacity: ");
+        int W = sc.nextInt();
+
+        List<Item> items = new ArrayList<>();
+        System.out.println("Enter the weight and utility of each item:");
+        for (int i = 0; i < N; i++) {
+            System.out.print("Item " + (i + 1) + " - Weight: ");
+            int weight = sc.nextInt();
+            System.out.print("Item " + (i + 1) + " - Utility: ");
+            int utility = sc.nextInt();
+            items.add(new Item(weight, utility));
+        }
+
+        List<Integer> selectedItems = new ArrayList<>();
+        int maxUtility = knapsack(items, W, selectedItems);
+
+        System.out.println("\nMaximum utility that can be carried: " + maxUtility);
+
+        System.out.println("Items chosen:");
+        for (int i : selectedItems) {
+            Item it = items.get(i);
+            System.out.println("Item " + (i + 1) + " - Weight: " + it.weight + " Utility: " + it.utility);
+        }
+
+        sc.close();
+    }
+}
