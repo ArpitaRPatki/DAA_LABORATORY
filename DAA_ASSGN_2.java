@@ -1,5 +1,5 @@
 //Arpita Patki 123B1F001
-//Assignment 2
+//Assignment 2  Implement Quicksort to efficiently sort movies based on various user-selected parameters.
 
 import java.util.*;
 
@@ -150,3 +150,4 @@ public class DAA_ASSGN_2 {
         sc.close();
     }
 }
+
