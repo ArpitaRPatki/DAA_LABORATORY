@@ -1,3 +1,5 @@
+//Arpita Patki 123B1F001
+// Assignment 7 Model the problem as a graph and implement a graph coloring algorithm (e.g., Greedy Coloring or Backtracking).
 import java.util.*;
 
 class Graph {
@@ -195,4 +197,5 @@ public class DAA_ASSGN_7 {
             }
         }
     }
+
 }
