@@ -1,5 +1,5 @@
 //Arpita_Patki_123B1F001
-//ASSIGNMENT 1
+//ASSIGNMENT 1 Design and implement a sorting algorithm using Merge Sort
 
 
 import java.util.*;
@@ -100,3 +100,4 @@ public class DAA_ASSGN_1 {
         System.out.println("\nTime taken: " + (endTime - startTime) / 1e6 + " ms");
     }
 }
+
