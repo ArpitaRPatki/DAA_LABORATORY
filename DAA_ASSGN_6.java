@@ -1,3 +1,5 @@
+//Arpita Patki 123B1F001
+// Assignment 6 Implement an algorithm to find the optimal set of items that maximizes utility while staying within the weight constraint
 import java.util.*;
 
 class Item {
@@ -72,3 +74,4 @@ public class DAA_ASSGN_6 {
         sc.close();
     }
 }
+
